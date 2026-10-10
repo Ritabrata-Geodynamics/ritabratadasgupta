@@ -487,3 +487,5 @@ footer {
     scroll-behavior: auto;
   }
 }
+
+.profile-photo{display:block;width:100%;height:auto;border-radius:5px;box-shadow:0 3px 12px #0002}.research-figure{margin:0 0 30px;text-align:center}.research-figure img{display:block;width:min(100%,580px);height:auto;margin:auto;border-radius:5px}.research-figure figcaption{font-size:13px;color:var(--muted);margin-top:12px}@media(max-width:700px){.profile-photo{width:130px;flex-shrink:0}.profile{align-items:center}}
