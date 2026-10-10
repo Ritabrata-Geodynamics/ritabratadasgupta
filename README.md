@@ -1,20 +1,26 @@
-# Ritabrata Dasgupta — Academic Website
+# Ritabrata Dasgupta — academic website
 
-Responsive, multi-page academic website built with HTML, CSS and JavaScript (no build tools needed).
+This is a buildless, nine-page website compatible with GitHub Pages.
 
-## Preview locally
-Open `index.html` in a browser, or run `python -m http.server 8000` in this folder and visit http://localhost:8000.
+## Update your current website
+1. Extract the ZIP on your computer.
+2. Open https://github.com/ritabrata-geodynamics/ritabratadasgupta
+3. On the Code tab, choose Add file → Upload files.
+4. Upload the extracted files (not the ZIP or its enclosing folder), replacing the existing files.
+5. Commit changes and wait for the Pages deployment to complete under Actions.
+6. Visit https://ritabrata-geodynamics.github.io/ritabratadasgupta/ and refresh with Ctrl + F5.
 
-## Publish free with GitHub Pages
-1. Create a GitHub repository named `YOUR_USERNAME.github.io`.
-2. Upload the contents of this folder to the repository root (not the ZIP).
-3. In Settings → Pages, choose Deploy from a branch, `main`, root (`/`).
-4. Open `https://YOUR_USERNAME.github.io` once GitHub Pages finishes deploying.
+Keep the current Pages branch and folder settings. All internal links use relative paths, so this website works in your repository subfolder.
 
-## Customize
-- Replace the SVG scientific artwork with your own research images if desired.
-- Add verified DOI links to publications.
-- Add your actual Google Scholar, ORCID and GitHub URLs to the Contact page.
-- The PDF in this package is copied directly from your uploaded CV.
+## Editing
+- style.css: colours, spacing, typography, responsive layouts.
+- index.html: homepage.
+- publications.html: articles. Each article has data-year="YYYY" for the year filter. Add a matching option to the year selector for a new year.
+- research.html: research topics.
+- about.html, projects.html, presentations.html, teaching.html, contact.html: respective content.
+- Ritabrata_Dasgupta_CV.pdf: replace to update the downloadable CV.
+- script.js: mobile navigation, publication filtering, back-to-top button.
 
-No photo or profile URLs have been invented.
+The SVG illustrations are conceptual schematics, not output from a numerical simulation. Replace them with your research figures when available. Article links open title searches in Google Scholar; they are not verified DOI links. Fonts are loaded from Google Fonts, with local fallbacks. No build tool or installation is needed.
+
+Validation: JavaScript syntax and local page/asset/fragment links checked. Browser visual QA was not available in the editing environment.
